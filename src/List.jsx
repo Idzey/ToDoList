@@ -1,5 +1,3 @@
-import { useDrag } from 'react-dnd'
-
 function List({list, setList}) {
     function deleteList(evt) {
         let newList = [...list];
